@@ -1,4 +1,4 @@
-* {box-sizing: border-box}
+* {box-sizing: border-box} /*this isn't right*/
 
 /*header style*/
 header{
@@ -7,6 +7,16 @@ header{
   padding: 2em 7em 2em 7em;
   /*border-style: dashed;*/
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 3em;
+}
+
+h2{
+  font-weight: normal;
+  width: 15em;
 }
 
 .top-nav{
@@ -14,6 +24,7 @@ header{
   padding: 1em 7em 1em 7em;
   /*border-style: dashed;*/
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /*main body*/
@@ -24,6 +35,23 @@ header{
   margin: 0em 1em 0em 7em;
   /*border-style: dashed;*/
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#cat-main-h3{
+  color: #3D9BB7;
+  font-size: 15pt;
+}
+
+#cat-main-jeremy{
+  color: #3D9BB7;
+  font-weight: normal;
+  font-size: 20pt;
+}
+
+#cat-main-p{
+  font-size: 11pt;
+  font-weight: normal;
 }
 
 /*aside styles*/
