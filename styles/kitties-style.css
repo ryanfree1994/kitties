@@ -32,7 +32,7 @@ h2{
   float: left;
   width: 35em;
   padding: 1em;
-  margin: 0em 1em 0em 7em;
+  margin: 0em 1em 3em 7em;
   /*border-style: dashed;*/
   box-sizing: border-box;
   font-family: sans-serif;
@@ -41,17 +41,26 @@ h2{
 #cat-main-h3{
   color: #3D9BB7;
   font-size: 15pt;
+  line-height: 1.5;
 }
 
 #cat-main-jeremy{
   color: #3D9BB7;
   font-weight: normal;
-  font-size: 20pt;
+  font-size: `6pt;
+  margin: 2em 0 2em 0;
+  line-height: 1.5;
 }
 
 #cat-main-p{
   font-size: 11pt;
   font-weight: normal;
+  line-height: 1.5;
+}
+
+#cat-main-h4{
+  color: #3A3A3A;
+  line-height: 1.5;
 }
 
 /*aside styles*/
@@ -59,9 +68,44 @@ aside{
   float: right;
   width: 17em;
   padding: 1em;
-  margin: 0em 7em 0em 0em;
+  margin: 0em 7em 3em 0em;
   /*border-style: dashed;*/
   box-sizing: border-box;
+}
+
+#aside-h4{
+  font-family: sans-serif;
+  color: #3A3A3A;
+  line-height: 1.5;
+}
+
+#aside-p{
+  font-family: sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+#link{
+  font-family: sans-serif;
+  font-size: 11pt;
+  font-weight: none;
+  color: #3D9BB7;
+}
+
+#aside-figure{
+  /*border-style: dashed;*/
+  width: 12em;
+  margin: 0 5em 1em 0;
+}
+
+#img-font{
+  font-family: sans-serif;
+  font-size: 11pt;
+  font-weight: none;
+}
+
+#aside-img{
+  width: 12em;
 }
 
 /*footer*/
@@ -70,4 +114,15 @@ footer{
   clear: both;
   box-sizing: border-box;
   text-align: center;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 8pt;
+  padding: 8em 0 8em 0;
+}
+
+#footer-img{
+  width: 30em;
+  /*border-style: dashed;*/
+  padding: 0 0 3em 0;
 }
