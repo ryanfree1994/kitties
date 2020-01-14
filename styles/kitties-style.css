@@ -7,29 +7,30 @@ header{
   padding: 2em 7em 2em 7em;
   /*border-style: dashed;*/
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 header h1 a{
   font-size: 2em;
   text-decoration: none;
   color: #ffffff;
+  font-family: sans-serif;
 }
 
 header h2{
   font-weight: normal;
   max-width: 15em;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
-section nav{
+nav{
   background-color: #EBEBEB;
   padding: 1em 5em 1em 5em;
   /*border-style: dashed;*/
   box-sizing: border-box;
 }
 
-section nav li{
+nav li{
   text-decoration: none;
   font-family: sans-serif;
   /*border-style: dashed;*/
@@ -41,7 +42,7 @@ section nav li{
   padding-left: 0.5em;
 }
 
-section nav li a{
+nav li a{
   text-decoration: none;
   font-family: sans-serif;
   font-size: 11pt;
@@ -49,7 +50,7 @@ section nav li a{
   color: #3A3A3A;
 }
 
-section nav li a:hover{
+nav li a:hover{
   color: #3D9BB7;
 }
 
@@ -78,6 +79,12 @@ section nav li a:hover{
   line-height: 1.5;
 }
 
+#cat-main-p{
+  font-size: 11pt;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
 #cat-main-p1{
   font-size: 11pt;
   font-weight: normal;
@@ -95,7 +102,7 @@ section nav li a:hover{
   line-height: 1.5;
 }
 
-article a{
+a{
   font-family: sans-serif;
   font-size: 11pt;
   font-weight: normal;
@@ -165,6 +172,7 @@ footer{
 
 footer nav{
   box-sizing: border-box;
+  background-color: #3A3A3A;
   /*border-style: dashed;*/
   padding-bottom: 1em;
 }
@@ -209,7 +217,7 @@ footer figure figcaption{
 /*about page*/
 .about-k2go{
   float: left;
-  max-width: auto;
+  width: auto;
   padding: 1em;
   margin: 0em 7em 1em 7em;
   /*border-style: dashed;*/
